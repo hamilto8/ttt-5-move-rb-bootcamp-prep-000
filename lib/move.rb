@@ -12,7 +12,7 @@ def update_array_at_with(array, index, value)
 end
 
 def input_to_index(input)
-input.to_i
+input.to_i - 1
 end
 
 def update_array_at_with(array, index, value = 'X')
